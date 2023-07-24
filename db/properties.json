@@ -1,0 +1,191 @@
+[
+  {
+    "city": "Manchester",
+    "country": "England",
+    "description": "An apartment looking over Manchester",
+    "caption": "A great apartment looking over Deansgate",
+    "rating": 4.5,
+    "totalPrice": 800.0,
+    "heroImg": "https://source.unsplash.com/YAPZt8wxMO4",
+    "images": [
+      "https://source.unsplash.com/ONKp84V3ZVs",
+      "https://source.unsplash.com/Aac7IlKnYX8",
+      "https://source.unsplash.com/GQQyH0yNqLk"
+    ],
+    "dateFrom": "2023/01/01",
+    "dateTo": "2023/01/07",
+    "numRooms": 2,
+    "numBeds": 2,
+    "numToilets": 2,
+    "numVotes": 300,
+    "sharedProperty": false
+  },
+  {
+    "city": "Milan",
+    "country": "Italy",
+    "description": "Double room in lovely apartment",
+    "caption": "Stay with Valentina",
+    "rating": 4.4,
+    "totalPrice": 400.0,
+    "heroImg": "https://source.unsplash.com/Wp7t4cWN-68",
+    "images": [
+      "https://source.unsplash.com/Yrxr3bsPdS0",
+      "https://source.unsplash.com/6TY_WrJTwSI",
+      "https://source.unsplash.com/kjh70RMHDco"
+    ],
+    "dateFrom": "2023/03/01",
+    "dateTo": "2023/03/07",
+    "numRooms": 2,
+    "numBeds": 2,
+    "numToilets": 2,
+    "numVotes": 100,
+    "sharedProperty": false
+  },
+  {
+    "city": "Ottawa",
+    "country": "Canada",
+    "description": "Stay in the wild in this cabin",
+    "caption": "A break away from the city",
+    "rating": 4.8,
+    "totalPrice": 271.0,
+    "heroImg": "https://source.unsplash.com/paydk0JcIOQ",
+    "images": [
+      "https://source.unsplash.com/nEtpvJjnPVo",
+      "https://source.unsplash.com/P_0tnQ8hb70",
+      "vp4yWCNA2_6Q"
+    ],
+    "dateFrom": "2023/02/01",
+    "dateTo": "2023/02/07",
+    "numRooms": 1,
+    "numBeds": 1,
+    "numToilets": 1,
+    "numVotes": 100,
+    "sharedProperty": false
+  },
+  {
+    "city": "London",
+    "country": "UK",
+    "description": "Stunning one bed apartment",
+    "caption": "Be close to the city with loads of things to do",
+    "rating": 4.3,
+    "totalPrice": 330.0,
+    "heroImg": "https://source.unsplash.com/_HqHX3LBN18",
+    "images": [
+      "https://source.unsplash.com/GqbU78bdJFM",
+      "https://source.unsplash.com/FJLoqqIsSHc",
+      "https://source.unsplash.com/TZ_Aj8a5SW8"
+    ],
+    "dateFrom": "2023/04/01",
+    "dateTo": "2023/04/07",
+    "numRooms": 1,
+    "numBeds": 1,
+    "numToilets": 1,
+    "numVotes": 400,
+    "sharedProperty": false
+  },
+  {
+    "city": "Los Angeles, California",
+    "country": "USA",
+    "description": "Two bedroom house in LA",
+    "caption": "Live with the stars",
+    "rating": 4.2,
+    "totalPrice": 571.0,
+    "heroImg": "https://source.unsplash.com/YAPZt8wxMO4",
+    "images": [
+      "https://source.unsplash.com/vOa-PSimwg4",
+      "https://source.unsplash.com/g51F6-WYzyU",
+      "https://source.unsplash.com/OPTtVaI8H2Q"
+    ],
+    "dateFrom": "2023/06/01",
+    "dateTo": "2023/06/07",
+    "numRooms": 2,
+    "numBeds": 2,
+    "numToilets": 2,
+    "numVotes": 500,
+    "sharedProperty": true
+  },
+  {
+    "city": "Paris",
+    "country": "France",
+    "description": "A lovely apartment in the love capital",
+    "caption": "Have a romantic break in my little hideaway",
+    "rating": 4.4,
+    "totalPrice": 471.0,
+    "heroImg": "https://source.unsplash.com/kyt0PkBSCNQ",
+    "images": [
+      "https://source.unsplash.com/hCU4fimRW-c",
+      "https://source.unsplash.com/1AF5hP6F4tI",
+      "https://source.unsplash.com/yoSb_GcodHo"
+    ],
+    "dateFrom": "2023/02/10",
+    "dateTo": "2023/02/14",
+    "numRooms": 1,
+    "numBeds": 1,
+    "numToilets": 1,
+    "numVotes": 300,
+    "sharedProperty": false
+  },
+  {
+    "city": "Mexixo City",
+    "country": "Mexico",
+    "description": "Room in apartment, traditional neighbourhood",
+    "caption": "Sit back and relax with tacos",
+    "rating": 4.2,
+    "totalPrice": 290.0,
+    "heroImg": "https://source.unsplash.com/0sDzRgrN_pI",
+    "images": [
+      "https://source.unsplash.com/qd5yc3hpaco",
+      "https://source.unsplash.com/R-FwAN1qz74",
+      "https://source.unsplash.com/SByfd_e-s2c"
+    ],
+    "dateFrom": "2023/04/01",
+    "dateTo": "2023/04/07",
+    "numRooms": 1,
+    "numBeds": 1,
+    "numToilets": 1,
+    "numVotes": 100,
+    "sharedProperty": false
+  },
+  {
+    "city": "Edinburgh",
+    "country": "Scotland",
+    "description": "A nice get away surrounded by culture",
+    "caption": "Capture some of Scotland's finest heritage",
+    "rating": 3.8,
+    "totalPrice": 471.0,
+    "heroImg": "https://source.unsplash.com/rEJxpBskj3Q",
+    "images": [
+      "https://source.unsplash.com/qGNgjHQjO2k",
+      "https://source.unsplash.com/fh-iC1o2QOM",
+      "https://source.unsplash.com/-PIntD0VM1o"
+    ],
+    "dateFrom": "2023/05/01",
+    "dateTo": "2023/05/07",
+    "numRooms": 1,
+    "numBeds": 1,
+    "numToilets": 1,
+    "numVotes": 150,
+    "sharedProperty": false
+  },
+  {
+    "city": "Copacabana",
+    "country": "Brazil",
+    "description": "Two bed apartment close to the beach",
+    "caption": "A bit of samba? Why not",
+    "rating": 5.0,
+    "totalPrice": 371.0,
+    "heroImg": "https://source.unsplash.com/L7EwHkq1B2s",
+    "images": [
+      "https://source.unsplash.com/4HUhp0vwkbM",
+      "https://source.unsplash.com/rT0zaQn2r5o",
+      "https://source.unsplash.com/Qsgxa7L8YfY"
+    ],
+    "dateFrom": "2023/07/01",
+    "dateTo": "2023/07/07",
+    "numRooms": 2,
+    "numBeds": 2,
+    "numToilets": 2,
+    "numVotes": 500,
+    "sharedProperty": false
+  }
+]
