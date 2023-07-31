@@ -51,7 +51,7 @@ class PropertyController implements Controller {
     try {
       let properties;
 
-      if (req.query.from && req.query.to && req.query.city) {
+      if (req.query.from && req.query.to) {
         console.log('Querying properties ...');
 
         properties = await propertyService.getBySearch(
