@@ -236,5 +236,55 @@ Content-Type: application/json
         "numVotes": 500,
         "sharedProperty": false,
         "region": "South America"
+    },
+        {
+        "city": "Sydney",
+        "country": "Australia",
+        "lat": -33.868820,
+        "lon": 151.209296,
+        "description": "Luxurious waterfront penthouse",
+        "caption": "Experience the stunning Sydney Harbor",
+        "rating": 4.9,
+        "perNightPrice": 250.00,
+        "totalPrice": 1750.00,
+        "heroImg": "https://source.unsplash.com/SDt5aSdbkz0",
+        "images": [
+            "https://source.unsplash.com/0IAJc6FN1lU",
+            "https://source.unsplash.com/NDAwN6vzRd0",
+            "https://source.unsplash.com/KFY8G6POONA"
+        ],
+        "dateFrom": "2023/09/15",
+        "dateTo": "2023/09/22",
+        "numRooms": 3,
+        "numBeds": 3,
+        "numToilets": 2,
+        "numVotes": 600,
+        "sharedProperty": false,
+        "region": "Oceania"
+    },
+    {
+        "city": "Tokyo",
+        "country": "Japan",
+        "lat": 35.689500,
+        "lon": 139.691710,
+        "description": "Modern apartment in the heart of Tokyo",
+        "caption": "Experience the vibrant city life",
+        "rating": 4.7,
+        "perNightPrice": 120.00,
+        "totalPrice": 840.00,
+        "heroImg": "https://source.unsplash.com/n96nC2mLFeU",
+        "images": [
+            "https://source.unsplash.com/lbE5pLvHqV4",
+            "https://source.unsplash.com/kVEMgObGJ7k",
+            "https://source.unsplash.com/zR2B_lC8dk0"
+        ],
+        "dateFrom": "2023/10/10",
+        "dateTo": "2023/10/17",
+        "numRooms": 2,
+        "numBeds": 2,
+        "numToilets": 1,
+        "numVotes": 800,
+        "sharedProperty": false,
+        "region": "Asia"
     }
 ]
