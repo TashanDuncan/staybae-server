@@ -24,7 +24,9 @@ class App {
   private initialiseMiddleware(): void {
     this.express.use(morgan('dev'));
     this.express.use(helmet());
-    this.express.use(cors());
+    this.express.use(cors({
+      origin: ['https://staybae-frontend.onrender.com']
+    }));
     this.express.use(express.json());
     this.express.use(express.urlencoded({ extended: true }));
     this.express.use(compression());
