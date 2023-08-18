@@ -3,7 +3,12 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:8080/api/properties/646f7dc0194b508e1b50f4b3
+GET http://localhost:8080/api/properties/64df3fbd3af60114717ac26b
+Content-Type: application/json
+
+###
+
+GET http://localhost:8080/api/properties/64df3fbd3af60114717ac26b/places
 Content-Type: application/json
 
 ###

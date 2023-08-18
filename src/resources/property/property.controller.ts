@@ -27,6 +27,20 @@ class PropertyController implements Controller {
     this.router.delete(`${this.path}/:id`, this.delete);
     this.router.get(`${this.path}`, this.getAll);
     this.router.get(`${this.path}/:id`, this.retrieveOne);
+    this.router.get(`${this.path}/:id/places`, this.retrievePlaces);
+  }
+
+  private retrievePlaces = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ): Promise<Response | void> => {
+    try {
+      const places = await propertyService.getNearbyPlacesById(req.params.id);
+      res.status(200).json(places);
+    } catch (error: any) {
+      next(new HttpException(400, error.message));
+    }
   }
 
   private retrieveOne = async (
@@ -36,7 +50,6 @@ class PropertyController implements Controller {
   ): Promise<Response | void> => {
     try {
       const property = await propertyService.getPropertyById(req.params.id);
-
       res.status(200).json(property);
     } catch (error: any) {
       next(new HttpException(400, error.message));

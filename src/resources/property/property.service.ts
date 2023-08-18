@@ -1,6 +1,7 @@
 import PropertyModel from './property.model';
 import Property from './property.interface';
 import moment from 'moment';
+import axios from 'axios'
 
 export const create = async (propertyDetails: Property) => {
   console.log(propertyDetails);
@@ -57,6 +58,36 @@ export const getPropertyById = async (id: string) => {
       throw new Error(`Unable to find property matching ID ${id}`);
     }
     return property;
+  } catch (error: any) {
+    throw new Error(`Unable to retrieve property details using ${id}`);
+  }
+};
+
+export const getNearbyPlacesById = async (id: string) => {
+  try {
+    const property = await PropertyModel.findById(id);
+    const lat = property?.lat
+    const lon = property?.lon
+    console.log(process.env.GOOGLE_MAPS_API_KEY)
+    const places = await axios.get(
+      'https://maps.googleapis.com/maps/api/place/nearbysearch/json',
+      {
+        params: {
+          location: `${lat},${lon}`,
+          radius: 1000,
+          type:'restaurant',
+          key:  process.env.GOOGLE_MAPS_API_KEY
+        },
+      })
+
+    if (!property) {
+      throw new Error(`Unable to find property matching ID ${id}`);
+    }
+    if (!places) {
+      throw new Error(`Unable to find places matching Lat:${lat} or Lon: ${lon}`);
+
+    }
+    return places.data;
   } catch (error: any) {
     throw new Error(`Unable to retrieve property details using ${id}`);
   }
