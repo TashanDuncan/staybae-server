@@ -24,9 +24,11 @@ class App {
   private initialiseMiddleware(): void {
     this.express.use(morgan('dev'));
     this.express.use(helmet());
-    this.express.use(cors({
-      origin: ['https://staybae-frontend.onrender.com']
-    }));
+    this.express.use(
+      cors({
+        origin: ['https://staybae-frontend.onrender.com'],
+      })
+    );
     this.express.use(express.json());
     this.express.use(express.urlencoded({ extended: true }));
     this.express.use(compression());
@@ -43,9 +45,12 @@ class App {
   }
 
   private initialiseDatabaseConnection(): void {
-    const { MONGO_USER, MONGO_PASSWORD, MONGO_PATH } = process.env;
-
-    mongoose.connect(`mongodb://${MONGO_USER}:${MONGO_PASSWORD}${MONGO_PATH}`);
+    const { MONGO_USER, MONGO_PASSWORD, MONGO_PATH, NODE_ENV } = process.env;
+    const MONGO_PROTOCOL =
+      NODE_ENV === 'development' ? 'mongodb' : 'mongodb+srv';
+    mongoose.connect(
+      `${MONGO_PROTOCOL}://${MONGO_USER}:${MONGO_PASSWORD}${MONGO_PATH}`
+    );
   }
 
   public listen(): void {
