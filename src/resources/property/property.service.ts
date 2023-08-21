@@ -68,7 +68,6 @@ export const getNearbyPlacesById = async (id: string) => {
     const property = await PropertyModel.findById(id);
     const lat = property?.lat
     const lon = property?.lon
-    console.log(process.env.GOOGLE_MAPS_API_KEY)
     const places = await axios.get(
       'https://maps.googleapis.com/maps/api/place/nearbysearch/json',
       {
